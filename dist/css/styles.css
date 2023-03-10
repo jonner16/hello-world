@@ -61,27 +61,48 @@
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
   --bs-body-color: #212529;
-  --bs-body-bg: #0F3460;
+  --bs-body-bg: #9f73ab;
 }
 
-.jl-dark-blue {
-    --bs-bg-opacity: 1;
-    background-color: #16213E !important;
+.jl-text-light {
+    --bs-text-opacity: 1;
+    color: #FFE3D8 !important;
 }
 
-.jl-blue {
+.jl-dark {
     --bs-bg-opacity: 1;
-    background-color: #0F3460 !important;
+    background-color: #1B2430 !important;
 }
 
-.jl-purple {
+.jl-medium {
     --bs-bg-opacity: 1;
-    background-color: #533483 !important;
+    background-color: #51557E !important;
 }
 
-.jl-red {
+.jl-light {
     --bs-bg-opacity: 1;
-    background-color: #E94560 !important;
+    background-color: #816797 !important;
+}
+
+.jl-very-light {
+    --bs-bg-opacity: 1;
+    background-color: #D6D5A8 !important;
+}
+
+.jl-carousel {
+    max-width: 500px;
+    height: auto;
+}
+
+.carousel-item img {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.inner-img img {
+    max-width: 100%;
+    height: auto;
 }
 
 *,
