@@ -1,20 +1,20 @@
 // // TOP WAVE ANIMATION //
-const container = document.getElementById("wave-container");
-
-const animateWave = x => {
-    const wave = document.createElement("div");
-
-    wave.className = "wave jl-purple";
-
-
-    wave.style.left = x.toString() + 'px';
-
-    container.appendChild(wave);
-
-    setTimeout(() => container.removeChild(wave), 2000);
-}
-
-window.onmousemove = m => animateWave(m.clientX);
+// const container = document.getElementById("wave-container");
+//
+// const animateWave = x => {
+//     const wave = document.createElement("div");
+//
+//     wave.className = "wave jl-purple";
+//
+//
+//     wave.style.left = x.toString() + 'px';
+//
+//     container.appendChild(wave);
+//
+//     setTimeout(() => container.removeChild(wave), 2000);
+// }
+//
+// window.onmousemove = m => animateWave(m.clientX);
 
 
 // PDF READER //
